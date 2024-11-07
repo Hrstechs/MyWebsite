@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book Your Course</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="course-list.html">Courses</a>
+        </nav>
+    </header>
+
+    <section class="booking-form">
+        <h2>Enroll in Web Development Bootcamp</h2>
+        <form action="#">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" value="Web Development Bootcamp" readonly>
+
+            <label for="date">Preferred Start Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit" class="btn">Confirm Booking</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 5px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #457b9d;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px; /* Space between buttons */
+}
+
+.btn:hover {
+    background-color: #2a9d8f;
+}
+
+/* Main content styling */
+main {
+    padding: 181px;
+    background-color: #f8f9fa;
+background-image: url('images/background.png');
+background-size: 100%; /* Adjust this percentage to reduce the size of the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */\
+  background-position: center;
+}
+
+.introduction {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.introduction h2 {
+    margin-bottom: 15px;
+}
+
+.introduction p {
+    margin-bottom: 20px; /* Space between the paragraph and the button */
+}
+
+.introduction .btn {
+    display: inline-block;
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 20px;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #1d3557;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #f1faee;
+    text-decoration: none;
+    margin: 0 3px; /* Space between footer links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
